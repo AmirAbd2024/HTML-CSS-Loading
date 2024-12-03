@@ -1,0 +1,45 @@
+﻿<html>
+
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+
+body{overflow-x:hidden;-webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;}
+
+.loadingsquarescls{animation:loadingsqranime 1.8s linear infinite;opacity:0;border-radius:50%;transition-duration:0.8s;width:8px;height:8px;background-color:gray;position:absolute;}
+@keyframes loadingsqranime{
+0%{left:0;opacity:0.6;}
+20%{left:45%;opacity:1;}
+80%{left:65%;opacity:1;}
+100%{left:100%;opacity:0.6;}
+}
+@media only screen and (max-width:600px){
+.loadingsquarescls{width:4px;height:4px;}
+}
+
+</style>
+
+</head>
+
+
+
+
+<body>
+
+<div style="height:40%;"></div>
+<div align="center">
+<div style="position:relative;width:50%;overflow:hidden;display:inline-flex;font-size:8px;">&nbsp;
+<div class="loadingsquarescls" style="animation-delay:0.14s;"></div>
+<div class="loadingsquarescls" style="animation-delay:0.28s;"></div>
+<div class="loadingsquarescls" style="animation-delay:0.42s;"></div>
+<div class="loadingsquarescls" style="animation-delay:0.56s;"></div>
+<div class="loadingsquarescls" style="animation-delay:0.7s;"></div>
+<div class="loadingsquarescls" style="animation-delay:0.84s;"></div>
+</div>
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+﻿<html>
+
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+
+body{overflow-x:hidden;-webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;}
+
+.loadingsquaresContainercls{position:relative;width:fit-content;overflow:none;display:inline-flex;font-size:28px;}
+.loadingsquarescls{animation:loadingsqranime 1.8s linear infinite;opacity:0;transition-duration:0.8s;width:18px;height:18px;background-color:transparent;}
+@keyframes loadingsqranime{
+0%{transform:rotate(180deg);opacity:0.4;}
+20%{transform:rotate(342deg);opacity:1;}
+80%{transform:rotate(412deg);opacity:1;}
+100%{transform:rotate(538deg);opacity:0.4;}
+}
+@media only screen and (max-width:600px){
+.loadingsquaresContainercls{font-size:14px;}
+.loadingsquarescls{width:10px;height:10px;}
+}
+
+</style>
+
+</head>
+
+
+
+
+<body>
+
+<div style="height:40%;"></div>
+<div align="center">
+<div class="loadingsquaresContainercls">&nbsp;
+<div><div class="loadingsquarescls" style="animation-delay:0.14s;">L</div></div>
+<div><div class="loadingsquarescls" style="animation-delay:0.28s;">O</div></div>
+<div><div class="loadingsquarescls" style="animation-delay:0.42s;">A</div></div>
+<div><div class="loadingsquarescls" style="animation-delay:0.56s;">D</div></div>
+<div><div class="loadingsquarescls" style="animation-delay:0.7s;">I</div></div>
+<div><div class="loadingsquarescls" style="animation-delay:0.84s;">N</div></div>
+<div><div class="loadingsquarescls" style="animation-delay:0.84s;">G</div></div>
+</div>
+</div>
+
+</body>
+
+</html>
