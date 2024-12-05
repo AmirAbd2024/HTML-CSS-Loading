@@ -1,0 +1,46 @@
+<style>
+.sphold{width:40px; animation:spinnerROT 2s linear infinite;}
+
+.pth {
+stroke-dasharray:440 400;
+stroke-dashoffset:0;
+stroke-linecap:round;
+animation: yyy 1.5s linear infinite;
+  /*transition: all 2s linear;*/
+
+}
+
+@keyframes spinnerROT{
+from{transform:rotate(0deg);}
+to{transform:rotate(-360deg);}
+}
+
+@keyframes yyy{
+0%{
+    stroke-dashoffset: 0;
+  }
+  25% {
+    stroke-dashoffset: 340;
+  }
+35% {
+    stroke-dashoffset: 440;
+  }
+50% {
+    stroke-dashoffset: 586;
+  }
+100% {
+    stroke-dashoffset: 840;
+  }
+}
+</style>
+
+
+<div class="sphold">
+<svg version="1.1" id="Layer_1" x="0px" y="0px"
+     width="80px" height="40px" viewBox="0 0 340 100">
+
+<circle class="pth" r="69.85699" cy="48" cx="86" stroke-width="24" stroke="#6fdb6f" fill="none" style="stroke-dasharray:440; stroke-linecap:round;"></circle>
+
+</svg></div>
+
+
